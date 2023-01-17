@@ -36,7 +36,8 @@ const CHAIN_ID_REQUIRED = 5; //Mumbai
  */
 const CONTRACT_ON_CHAINS = {
     1: '0x76460E73eadE1DDe315E07a5eCa092448c193a2F',
-    5: '0x3aC587078b344a3d27e56632dFf236F1Aff04D56'
+    5: '0x2ABF3380017e59Adc1b94B01D908Ecd0570967b5'
+	// 5번은 토큰 클레임 컨트렉트임.
 };
 
 /**
