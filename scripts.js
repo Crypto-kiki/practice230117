@@ -59,55 +59,12 @@ const CONTRACT_ABI = [
     {
         "inputs": [
             {
-                "internalType": "string",
-                "name": "_greeting",
-                "type": "string"
+                "internalType": "uint256",
+                "name": "Dress_nft_id",
+                "type": "uint256"
             }
         ],
-        "stateMutability": "nonpayable",
-        "type": "constructor"
-    },
-    {
-        "anonymous": false,
-        "inputs": [
-            {
-                "indexed": false,
-                "internalType": "address",
-                "name": "sender",
-                "type": "address"
-            },
-            {
-                "indexed": false,
-                "internalType": "string",
-                "name": "message",
-                "type": "string"
-            }
-        ],
-        "name": "NewGreeting",
-        "type": "event"
-    },
-    {
-        "inputs": [],
-        "name": "getGreeting",
-        "outputs": [
-            {
-                "internalType": "string",
-                "name": "",
-                "type": "string"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "string",
-                "name": "_greeting",
-                "type": "string"
-            }
-        ],
-        "name": "setGreeting",
+        "name": "claim",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
